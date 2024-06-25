@@ -1,7 +1,13 @@
 <header>Article</header>
-<div>
-  <span>Orignal Text</span>
+<h4 style="display: block;text-align: center;">Example of custom pipe:</h4>
+<div class="org">
+  <span>Orignal Text:</span>
 </div>
 <p>
   {{ orignalText }}
 </p>
+<div class="short">
+  <span>Shortened Text:</span>
+</div>
+
+<p>{{orignalText | shorten}}</p>

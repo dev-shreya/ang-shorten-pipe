@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { ShortenPipe } from './shorten.pipe';
 
 @Component({
   selector: 'app-comp',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   standalone: true,
-  imports: [],
+  imports: [ShortenPipe],
 })
 export class AppComponent {
   orignalText =
